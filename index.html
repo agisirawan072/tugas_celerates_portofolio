@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Agis Irawan</title>
+
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap CSS via CDN / API -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Agis<span>.</span></a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#experience">Experience</a>
+                <a href="#chat" class="btn-chat">
+                    Let's Chat
+                </a>
+            </div>
+
+            <button class="hamburger" id="btn-menu" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="mobile-menu" id="menu-hp">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#chat" class="btn-chat" style="text-align: center; display: block; margin-top: 10px;">
+                Let's Chat
+            </a>
+        </div>
+    </nav>
+
+    <!-- 1. HOME / HERO SECTION (KIRI: TEKS, KANAN: ARTISTIC CARD) -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+
+            <!-- KOLOM KIRI: TEKS & CALL TO ACTION -->
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fa-solid fa-code"></i> Mahasiswa
+                </div>
+                <h1>Halo, Saya <span>Muhammad Agis Irawan</span></h1>
+                <p>Memiliki latar belakang yang kuat dalam infrastruktur jaringan komputer dan saat ini berfokus pada
+                    pengembangan perangkat lunak (Software Engineering). Berdedikasi untuk menciptakan aplikasi web yang
+                    responsif, modern, dan solutif.</p>
+                <div class="hero-buttons">
+                    <a href="#chat" class="btn-primary">Hubungi Saya <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- KOLOM KANAN: ARTISTIC MODERN CARD -->
+            <div class="hero-art-wrapper">
+                <!-- Effect Cahaya Glow Belakang -->
+                <div class="hero-glow"></div>
+
+                <!-- Frame Art Miring (Belakang) -->
+                <div class="art-card-bg"></div>
+
+                <!-- Main Card Foto -->
+                <div class="art-card">
+                    <img src="assets/img/agis.jpg" alt="Foto Agis">
+                    <div class="art-card-overlay"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section id="about" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <p class="section-subtitle">Sekilas latar belakang dan fokus belajar</p>
+
+            <div class="about-card">
+                <div class="about-text">
+                    <p>Saat ini, saya sedang melanjutkan pendidikan di Universitas Pancasila mengambil jurusan Teknik
+                        Informatika dengan fokus mendalam pada bidang Software Engineering, dimana saya mengembangkan
+                        minat yang kuat dalam merancang dan membangun aplikasi serta website yang interaktif.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span>Experience</span></h2>
+            <p class="section-subtitle">Pengalaman studi dan pengembangan keterampilan</p>
+
+            <div class="experience-wrapper">
+                <div class="card">
+                    <h3>Studi Independen di Celerates</h3>
+                    <p class="card-subtitle">Mahasiswa Universitas Pancasila</p>
+                    <p class="card-text">Sedang mengikuti program Studi Independen di Celerates untuk meningkatkan
+                        kompetensi dan keterampilan di bidang teknologi dan pengembangan perangkat lunak sesuai dengan
+                        standar industri saat ini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. LET'S CHAT / CONNECT SECTION -->
+    <section id="chat" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Let's <span>Chat</span></h2>
+            <p class="section-subtitle">Pilih media di bawah ini untuk terhubung langsung dengan saya</p>
+
+            <div class="social-links-wrapper">
+                <a href="https://github.com/agisirawan072" target="_blank" class="social-btn github" aria-label="GitHub"
+                    title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-agis-irawan-87485b312/" target="_blank"
+                    class="social-btn linkedin" aria-label="LinkedIn" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/agisirawan_30/" target="_blank" class="social-btn instagram"
+                    aria-label="Instagram" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Muhammad Agis Irawan. All Right Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle via CDN / API -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript Terpisah -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
